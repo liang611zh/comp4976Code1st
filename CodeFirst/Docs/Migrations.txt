@@ -1,5 +1,4 @@
 ﻿Enable-Migrations -ContextTypeName ProvinceContext -MigrationsDirectory Migrations\Location
 
 add-migration -ConfigurationTypeName CodeFirst.Migrations.Location.Configuration "InitialCreate"
-
 update-database -ConfigurationTypeName CodeFirst.Migrations.Location.Configuration
